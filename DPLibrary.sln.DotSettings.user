@@ -1,0 +1,31 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dfa36fbc_002D4da4_002D4c23_002Dbd16_002Dfefa24f00748/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddRangeTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.ICollectionExtensionsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IDictionaryExtensionsTest.AddOrUpdate&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IDictionaryExtensionsTest.ContainsAllKey&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IDictionaryExtensionsTest.ContainsAnyKey&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IDictionaryExtensionsTest.GetOrUpdate&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IDictionaryExtensionsTest.RemoveIf&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IDictionaryExtensionsTest.RemoveIfContainsKey&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IDictionaryExtensionsTest.ToSorterDictionary&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.ContainsAllKey&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.ContainsAnyKey&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.Foreach&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.ForEach&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.ReversedForEach&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.GetAllRepeated&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.GetAllDuplicates&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.GetMoreThanOnceRepeated&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.IsEmpty&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.IsNotNullOrEmpty&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCollections.System.Collections.Generic.IEnumerableExtensionsTest.StringJoin&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCore.System.DateTime.DateTimeTest.IsDateEqual&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCore.System.Boolean.BooleanExtensionsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCore.System.Object.ObjectExtensionsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCore.System.String.StringExtensionsTest.To&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCore.System.String.StringExtensionsTest.ToNumber&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPCore.System.String.StringExtensionsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::7C738AAB-EEF1-443D-89BE-5D2E2C1318C1::.NETFramework,Version=v4.8::DPLibraryTest.DPNet.SMB.SmbConnectionTest.IsConnection&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

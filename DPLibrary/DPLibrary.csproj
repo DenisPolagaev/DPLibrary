@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{289FCDBD-3DA2-42AF-9253-E0FA625D9CB4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DPLibrary</RootNamespace>
+    <AssemblyName>DPLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Core">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Xml">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DPCollections\System.Collections.Generic.ICollection[T]\AddRangeExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.ICollection[T]\ContainsAllExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.ICollection[T]\ContainsAnyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.ICollection[T]\IsEmptyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.ICollection[T]\IsNotEmptyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.ICollection[T]\IsNotNullOrEmptyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.ICollection[T]\IsNullOrEmptyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.ICollection[T]\RemoveRangeExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.ICollection[T]\RemoveWhereExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IDictionary[TKey, TValue]\AddOrUpdateExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IDictionary[TKey, TValue]\ContainsAllKeyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IDictionary[TKey, TValue]\ContainsAnyKeyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IDictionary[TKey, TValue]\GetOrAddExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IDictionary[TKey, TValue]\RemoveIfContainsKeyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IDictionary[TKey, TValue]\ToSortedDictionaryExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\ContainsAllExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\ContainsAnyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\ForEachAsyncExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\ForEachReverseAsyncExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\ForEachReverseExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\GetDuplicatesExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\ForEachExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\GetAllRepeatedExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\GetMoreThanOnceRepeatedExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\IsEmptyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\IsNotEmptyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\IsNotNullOrEmptyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\IsNullOrEmptyExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\StringJoinExtensions.cs" />
+    <Compile Include="DPCollections\System.Collections.Generic.IEnumerable[T]\ToObservableCollectionExtensions.cs" />
+    <Compile Include="DPCore\System.Boolean\ExecuteIfFalseExtensions.cs" />
+    <Compile Include="DPCore\System.Boolean\ExecuteIfTrueExtensions.cs" />
+    <Compile Include="DPCore\System.Boolean\SelectValueExtensions.cs" />
+    <Compile Include="DPCore\System.Boolean\ToBinaryExtensions.cs" />
+    <Compile Include="DPCore\System.Boolean\ToStringExtensions.cs" />
+    <Compile Include="DPCore\System.DateTime\IsDateEqualExtensions.cs" />
+    <Compile Include="DPCore\System.Enum\EnumInternal.cs" />
+    <Compile Include="DPCore\System.Enum\GetDescriptionExtensions.cs" />
+    <Compile Include="DPCore\System.Object\AsExtensions.cs" />
+    <Compile Include="DPCore\System.Object\IsNotNullExtensions.cs" />
+    <Compile Include="DPCore\System.Object\IsNullExtensions.cs" />
+    <Compile Include="DPCore\System.Object\ReferenceEqualsExtension.cs" />
+    <Compile Include="DPCore\System.String\ConvertStringToEnumExtensions.cs" />
+    <Compile Include="DPCore\System.String\ConvertToBooleanExtensions.cs" />
+    <Compile Include="DPCore\System.String\ConvertToByteExtensions.cs" />
+    <Compile Include="DPCore\System.String\ConvertToCharExtensions.cs" />
+    <Compile Include="DPCore\System.String\ConvertToDateTimeExtensions.cs" />
+    <Compile Include="DPCore\System.String\ConvertToDoubleExtensions.cs" />
+    <Compile Include="DPCore\System.String\ConvertToInt32Extensions.cs" />
+    <Compile Include="DPCore\System.String\IfNotEmptyExtensions.cs" />
+    <Compile Include="DPCore\System.String\IsEmptyExtensions.cs" />
+    <Compile Include="DPCore\System.String\IsNotEmptyExtensions.cs" />
+    <Compile Include="DPCore\System.String\ToSecureStringExtensions.cs" />
+    <Compile Include="DPCore\System.Text\Xml.cs" />
+    <Compile Include="DPIO\System.Collections.Generic.IEnumerable[DirectoryInfo]\ForEachExtension.cs" />
+    <Compile Include="DPIO\System.Collections.Generic.IEnumerable[FileInfo]\ForEachExtension.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\ClearExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\CreateIfNotExistsExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\DeleteDirectoriesWhereExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\DeleteFileWhereExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\DeleteOlderThanExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\GetDirectoriesExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\GetDirectoriesWhereExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\GetFilesExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\GetFilesWhereExtension.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\GetSizeExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\IsEmptyExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\PathCombineDirectoryExtensions.cs" />
+    <Compile Include="DPIO\System.IO.DirectoryInfo\PathCombineFileExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\CopyToAsyncExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\CopyToExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\OtherExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\ReadAllLinesAsyncExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\ReadAllLinesExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\ReadToEndAsyncExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\ReadToEndExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\RenameExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\WriteAllLinesExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\WriteAllTextAsyncExtensions.cs" />
+    <Compile Include="DPIO\System.IO.FileInfo\WriteAllTextExtensions.cs" />
+    <Compile Include="DPNet\SMB\NetResource.cs" />
+    <Compile Include="DPNet\SMB\NetworkSMBConnection.cs" />
+    <Compile Include="DPNet\SMB\ResourceDisplayType.cs" />
+    <Compile Include="DPNet\SMB\ResourceScope.cs" />
+    <Compile Include="DPNet\SMB\ResourceType.cs" />
+    <Compile Include="DPSecurity\System.Security.SecureString\CopyInfoExtensions.cs" />
+    <Compile Include="DPSecurity\System.Security.SecureString\ToUnsecuredStringExtensions.cs" />
+    <Compile Include="DPThreading\Schedule\Scheduler.cs" />
+    <Compile Include="DPThreading\Schedule\TimedTask.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DPCollections\System.Collections.Generic.ICollection[T]\System.Collections.Generic.ICollection[T].md" />
+    <Content Include="DPCollections\System.Collections.Generic.IDictionary[TKey, TValue]\System.Collections.Generic.IDictionary[TKey,TValue].md" />
+    <Content Include="DPCollections\System.Collections.Generic.IEnumerable[T]\System.Collections.Generic.IEnumerable[T].md" />
+    <Content Include="DPCore\System.Boolean\System.Boolean.md" />
+    <Content Include="DPCore\System.DateTime\System.DateTime.md" />
+    <Content Include="DPCore\System.Object\System.Object.md" />
+    <Content Include="DPCore\System.String\System.String.md" />
+    <Content Include="DPIO\System.Collections.Generic.IEnumerable[DirectoryInfo]\System.IO.IEnumerable_DirectoryInfo_.md" />
+    <Content Include="DPIO\System.Collections.Generic.IEnumerable[FileInfo]\System.IO.IEnumerable_FileInfo_.md" />
+    <Content Include="DPIO\System.IO.DirectoryInfo\System.IO.DirectoryInfo.md" />
+    <Content Include="DPIO\System.IO.DirectoryInfo\System.IO.FileInfo.md" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\bin\Debug\DPLibraryTest.dll
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\bin\Debug\DPLibraryTest.pdb
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\bin\Debug\DPLibrary.dll
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\bin\Debug\nunit.framework.dll
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\bin\Debug\DPLibrary.pdb
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\bin\Debug\DPLibrary.dll.config
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\bin\Debug\nunit.framework.xml
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\obj\Debug\DPLibraryTest.csprojAssemblyReference.cache
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\obj\Debug\DPLibraryTest.csproj.CoreCompileInputs.cache
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\obj\Debug\DPLibraryTest.csproj.CopyComplete
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\obj\Debug\DPLibraryTest.dll
+C:\Users\polagaev\source\repos\DPLibrary\DPLibraryTest\obj\Debug\DPLibraryTest.pdb

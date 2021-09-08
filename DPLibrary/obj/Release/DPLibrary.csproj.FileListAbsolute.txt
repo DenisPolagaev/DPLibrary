@@ -1,0 +1,7 @@
+C:\Users\polagaev\source\repos\DPLibrary\DPLibrary\bin\Release\DPLibrary.dll.config
+C:\Users\polagaev\source\repos\DPLibrary\DPLibrary\bin\Release\DPLibrary.dll
+C:\Users\polagaev\source\repos\DPLibrary\DPLibrary\bin\Release\DPLibrary.pdb
+C:\Users\polagaev\source\repos\DPLibrary\DPLibrary\obj\Release\DPLibrary.csprojAssemblyReference.cache
+C:\Users\polagaev\source\repos\DPLibrary\DPLibrary\obj\Release\DPLibrary.csproj.CoreCompileInputs.cache
+C:\Users\polagaev\source\repos\DPLibrary\DPLibrary\obj\Release\DPLibrary.dll
+C:\Users\polagaev\source\repos\DPLibrary\DPLibrary\obj\Release\DPLibrary.pdb
